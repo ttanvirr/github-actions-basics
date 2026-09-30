@@ -69,4 +69,29 @@ This guide assumes that:
 
     At this stage you don't need to understand the details of this workflow.
 
-3.  Click Commit changes.
+3.  If you've made the changes locally, commit changes and push the changes to gitHub. If you've made the changes in GitHub, click `Commit changes` to commit the changes. Committing the workflow file to a branch in your repository triggers the `push` event and runs your workflow.
+
+## 1.5. Viewing your workflow results
+
+1. On GitHub, navigate to the main page of the repository.
+
+2. Under your repository name, click `Actions`.
+
+   <img src="doc_images/image01.png" width="600" />
+
+3. In the left sidebar, click the workflow you want to display, in this example "GitHub Actions Demo."
+
+   <img src="doc_images/image02.png" width="600" />
+
+4. From the list of workflow runs, click the name of the run you want to see, in this example "USERNAME is testing out GitHub Actions."
+
+5. In the left sidebar of the workflow run page, under Jobs, click the `Explore-GitHub-Actions` job.
+   <img src="doc_images/image03.png" width="600" />
+
+6. The log shows you how each of the steps was processed. Expand any of the steps to view its details.
+
+   <img src="doc_images/image04.png" width="600" />
+
+The example workflow you just added is triggered each time code is pushed to the branch, and shows you how GitHub Actions can work with the contents of your repository.
+
+Commit changes.
