@@ -95,3 +95,7 @@ This guide assumes that:
 The example workflow you just added is triggered each time code is pushed to the branch, and shows you how GitHub Actions can work with the contents of your repository.
 
 Commit changes.
+
+# 2. Understanding GitHub Actions
+
+Read the article from [this link](https://docs.github.com/en/actions/get-started/understand-github-actions) to understand GitHub Actions.
